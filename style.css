@@ -1,0 +1,74 @@
+
+
+#listings.market_dialog_content{
+    height: 207px;
+}
+
+
+
+html .market_listing_row{
+    border-bottom: 1px solid #414141;
+    position: relative;
+    height: 16px;
+    width: 100%;
+}
+html .market_listing_row > div{
+    display: none;
+}
+html .market_listing_table_header{
+    display: none;
+}
+html .market_listing_row .market_listing_item_name_block{
+    display: inline-block;
+    position: absolute;
+    left: 2px;     
+}
+html .market_listing_row .market_listing_seller{
+    display: inline-block;
+    position: absolute;
+    right: 55px;    
+    font-size: 12px;
+    top: 1px;
+
+}
+html .market_listing_owner_avatar{
+    display: inline
+}
+html .playerAvatar{
+    display: inline-block;
+    height: 9px;
+    width: auto;
+}
+html .market_listing_row .market_listing_seller a{
+    position: relative;
+    top: -3px;
+}
+
+html .market_listing_row .market_listing_item_name_block br{
+    display: none;    
+}
+html .market_listing_row .market_listing_item_name_block .market_listing_item_name{
+    font-weight: bold;
+}
+html .market_listing_row .market_listing_their_price{
+    display: inline-block;
+    color:#fff;
+    position: absolute;
+    right: 1px
+}
+html .market_listing_row .market_listing_their_price .market_listing_price_without_fee{
+    display: none;
+}
+.listingswitcher{
+   color: #828282;
+   float: left;
+}
+#listings .listingswitcher{
+    position: relative;
+    top: 5px;
+}
+.listingswitcher a{
+    padding-left: 11px;
+    display: inline-block;
+}
+
